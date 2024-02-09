@@ -20,9 +20,6 @@ module "eks" {
     kube-proxy = {
       resolve_conflict = "OVERWRITE"
     }
-    csi = {
-      resolve_conflict = "OVERWRITE"
-    }
   }
 
   eks_managed_node_groups = {
